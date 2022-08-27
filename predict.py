@@ -36,3 +36,4 @@ def predict(input_text:str,
 
 if __name__ == '__main__':
     print(predict('Congrats, you won a brand new iPhone!'))
+    
