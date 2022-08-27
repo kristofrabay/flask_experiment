@@ -1,0 +1,5 @@
+# check contents of image
+docker run -it --entrypoint sh spam-classifier:v0
+
+# run image
+docker run -it --name spam_class --rm -p 9696:9696 spam-classifier:v0
